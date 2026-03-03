@@ -4,10 +4,20 @@
   <artifactId>JUnit6Official</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>JUnit6Official</name>
+  <properties>
+  	<maven.compiler.source>25</maven.compiler.source>
+  	<maven.compiler.target>25</maven.compiler.target>
+  </properties>
   <dependencies>
   <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-api</artifactId>
+    <version>6.1.0-M1</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-params</artifactId>
     <version>6.1.0-M1</version>
     <scope>test</scope>
 </dependency>
