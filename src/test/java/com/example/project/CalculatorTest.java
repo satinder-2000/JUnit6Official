@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import example.util.Calculator;
+
 class CalculatorTest {
 	@Test
 	@DisplayName("1 + 1 = 2")
